@@ -12,6 +12,7 @@ class Artist
   end 
   
   def songs
+    song.new 
   end 
 
 

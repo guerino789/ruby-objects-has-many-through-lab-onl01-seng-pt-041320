@@ -10,4 +10,8 @@ class Patient
   def self.all
     @@all
   end 
+  
+  def appointments
+    Appointments.all { |appointments| appointments.patient == self }
+  end 
 end 

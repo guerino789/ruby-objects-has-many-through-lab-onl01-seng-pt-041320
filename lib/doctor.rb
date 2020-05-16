@@ -11,7 +11,7 @@ class Doctor
     @@all
   end
   
-  def appointments(name)
+  def appointments
   end 
   
   

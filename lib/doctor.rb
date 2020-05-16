@@ -11,6 +11,9 @@ class Doctor
     @@all
   end
   
+  def appointments(name)
+  end 
+  
   
   
 end 
